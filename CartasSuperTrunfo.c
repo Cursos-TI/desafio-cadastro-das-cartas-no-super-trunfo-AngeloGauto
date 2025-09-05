@@ -17,8 +17,6 @@ int main() {
         float pib1;
         int numturismo1;
         
-
-        
         //declaração de variaveis carta 2
         char estado2;
         char codigocarta2 [4];
@@ -28,8 +26,6 @@ int main() {
         float pib2;
         int numturismo2;
         
-
-
         //recolhe dados da primeira carta
         printf ("Olá, vamos jogar super trunfo ? digite os dados de sua primeira carta. \n");
         printf ("Digite uma letra de A a H representando seu estado: ");
@@ -65,7 +61,6 @@ int main() {
         printf ("Digite numero de pontos turisticos da cidade: ");
         scanf ("%d", &numturismo2);
 
-
         //Exibe dados da primeira carta
         printf ("\n");
         printf ("SEGUE AS CARTAS JOGADAS\n");
@@ -80,7 +75,6 @@ int main() {
         printf ("Area da cidade %.2f km². \n", area1);
         printf ("PIB: %.2f Bilhões de reais \n", pib1);
         printf ("Numero de pontos turisticos: %d \n", numturismo1);
-
 
         //Exibe dados da segunda carta
         printf ("\n");
