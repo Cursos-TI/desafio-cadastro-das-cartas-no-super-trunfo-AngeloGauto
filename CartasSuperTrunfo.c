@@ -70,7 +70,7 @@
         printf ("CARTA 1 \n");
         printf ("\n");
         printf ("Estado: %c\n", estado1);
-        printf ("Código Estado: %s \n", &codigocarta1); 
+        printf ("Código Estado: %s \n", codigocarta1); 
         printf ("Nome da Cidade: %s \n", cidade1);
         printf ("População: %d \n", populacao1);
         printf ("Area da Cidade %.2f km². \n", area1);
@@ -86,7 +86,7 @@
         printf ("CARTA 2 \n");
         printf ("\n");
         printf ("Estado: %c\n", estado2);
-        printf ("Código Estado: %s \n", &codigocarta2); 
+        printf ("Código Estado: %s \n", codigocarta2); 
         printf ("Nome da Cidade: %s \n", cidade2);
         printf ("População: %d \n", populacao2);
         printf ("Area da cidade %.2f km². \n", area2);
