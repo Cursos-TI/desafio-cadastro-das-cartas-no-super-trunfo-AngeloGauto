@@ -80,7 +80,7 @@
         resulArea = area1 > area2 ;
         resulPib = pib1 > pib2;
         resulTurismo = numturismo1 > numturismo2;
-        resulDensidade = denspopulacional1 > denspopulacional2;
+        resulDensidade = denspopulacional1 < denspopulacional2;
         resulPibpercapta = pibpercap1 > pibpercap2;
         resulSuper = superP1 > superP2;
 
@@ -99,6 +99,7 @@
 
         return 0;
 
+        
     }
 
 
