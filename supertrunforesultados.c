@@ -71,8 +71,8 @@
         pibpercap2 = (float) pib2 / populacao2;
 
         //calcula poder carta1 e 2
-        superP1 = (float) populacao1 + area1 + pib1 + numturismo1 - denspopulacional1;
-        superP2 = (float) populacao2 + area2 + pib2 + numturismo2 - denspopulacional2;
+        superP1 = (float) populacao1 + area1 + pib1 + numturismo1 + ( 1 / denspopulacional1);
+        superP2 = (float) populacao2 + area2 + pib2 + numturismo2 + ( 1 /denspopulacional2);
 
 
         //compara cartas
